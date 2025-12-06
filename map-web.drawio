@@ -4,6 +4,39 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4d49v5yiG84lFKUnlk-L-1" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="Internet" vertex="1">
+          <mxGeometry height="80" width="120" x="80" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4d49v5yiG84lFKUnlk-L-2" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="670" width="670" x="60" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="4d49v5yiG84lFKUnlk-L-4" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.firewall;network2IconXOffset=0.0001;network2IconYOffset=0.0001;network2IconW=1;network2IconH=0.608;" value="Firewall" vertex="1">
+          <mxGeometry height="30.4" width="50" x="285" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="4d49v5yiG84lFKUnlk-L-8" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="Cluter ELK" vertex="1">
+          <mxGeometry height="330" width="450" x="160" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="4d49v5yiG84lFKUnlk-L-9" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.monitor;network2IconYOffset=-0.009;network2IconW=1;network2IconH=0.742;" value="Kibana" vertex="1">
+          <mxGeometry height="37.1" width="50" x="285" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="4d49v5yiG84lFKUnlk-L-10" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.terminal;network2IconW=0.8554;network2IconH=1;" value="Elasticseach" vertex="1">
+          <mxGeometry height="50" width="42.77" x="443.61" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="4d49v5yiG84lFKUnlk-L-11" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.data_storage;network2IconW=0.8252;network2IconH=0.9989;" value="Logstash" vertex="1">
+          <mxGeometry height="49.945" width="41.260000000000005" x="358.61" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="4d49v5yiG84lFKUnlk-L-12" edge="1" parent="1" source="4d49v5yiG84lFKUnlk-L-4" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.8;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.38;exitY=0.132;exitDx=0;exitDy=0;exitPerimeter=0;" target="4d49v5yiG84lFKUnlk-L-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="140" y="200" as="sourcePoint" />
+            <mxPoint x="190" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4d49v5yiG84lFKUnlk-L-13" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="DMZ" vertex="1">
+          <mxGeometry height="220" width="383.26" x="193.37" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="4d49v5yiG84lFKUnlk-L-14" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.globe;network2IconW=1;network2IconH=1;" value="Web Server" vertex="1">
+          <mxGeometry height="50" width="50" x="285" y="320" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
