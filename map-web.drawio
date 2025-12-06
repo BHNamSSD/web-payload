@@ -35,7 +35,13 @@
           <mxGeometry height="220" width="383.26" x="193.37" y="235" as="geometry" />
         </mxCell>
         <mxCell id="4d49v5yiG84lFKUnlk-L-14" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.globe;network2IconW=1;network2IconH=1;" value="Web Server" vertex="1">
-          <mxGeometry height="50" width="50" x="285" y="320" as="geometry" />
+          <mxGeometry height="50" width="50" x="285" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="4d49v5yiG84lFKUnlk-L-15" edge="1" parent="1" source="4d49v5yiG84lFKUnlk-L-14" style="endArrow=classic;html=1;rounded=0;entryX=0.494;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;" target="4d49v5yiG84lFKUnlk-L-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="470" as="sourcePoint" />
+            <mxPoint x="440" y="420" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
